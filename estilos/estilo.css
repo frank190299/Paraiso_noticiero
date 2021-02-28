@@ -18,10 +18,6 @@ body {
   font-size: var(--tamaño-texto);
   background: var(--color-principal);
 }
-nav {
-  width: 100%;
-  text-align: center;
-}
 h2 {
   font-size: var(--tamaño-titulos);
 }
@@ -33,6 +29,10 @@ h2 {
   padding: 15px 0;
   font-style: italic;
   border-bottom: 2px solid black;
+}
+nav {
+  width: 100%;
+  text-align: center;
 }
 .nav li a {
   color: var(--color-texto);
